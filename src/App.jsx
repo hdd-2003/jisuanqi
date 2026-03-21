@@ -258,7 +258,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-yellow-400 text-black font-mono p-4 flex flex-col items-center select-none overflow-x-hidden">
+    <div className="min-h-screen bg-yellow-400 text-black font-mono p-4 flex flex-col items-center select-none overflow-x-hidden touch-none" style={{ touchAction: 'manipulation' }}>
       <div className="fixed top-0 left-0 w-full bg-black text-yellow-400 py-1 z-50 overflow-hidden whitespace-nowrap border-b-2 border-black text-sm font-bold">
         <div className="animate-marquee inline-block italic">
           ⚠️ 警告：正在进入打工人受难区 ⚠️ 你的每一分钱都是命换来的 ⚠️
