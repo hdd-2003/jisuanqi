@@ -53,7 +53,7 @@ export default function App() {
   const [displayValue, setDisplayValue] = useState(0); 
   const [particles, setParticles] = useState([]); 
   const [activeModal, setActiveModal] = useState(null); 
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
   
   const [items, setItems] = useState([]);
