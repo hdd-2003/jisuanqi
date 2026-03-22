@@ -38,7 +38,7 @@
 
 ## 部署
 
-项目已部署 Netlify 
+项目已部署 Netlify ，体验链接：https://kuming.netlify.app/
 
 ---
 
